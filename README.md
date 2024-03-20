@@ -6,8 +6,8 @@ To develop a Django application to store and retrieve data from a Book database 
 
 ## Entity Relationship Diagram
 
+![WhatsApp Image 2024-03-21 at 00 10 34_467c52f6](https://github.com/SwaminathanV23000747/ORM/assets/148931113/cddb8ce6-c27a-4f74-a655-904f1205e0d4)
 
-![Screenshot 2024-03-05 101827](https://github.com/SwaminathanV23000747/ORM/assets/148931113/c0433462-03ea-42db-b51f-a64c33673738)
 
 
 ## DESIGN STEPS
@@ -29,7 +29,7 @@ Execute Django admin and create details for 10 books
 model.py
 from django.contrib import admin
 from django.db import models
-class book(models.Model):
+class Books(models.Model):
     name=models.CharField(max_length=50);
     author=models.CharField(max_length=20);
     price=models.IntegerField();
